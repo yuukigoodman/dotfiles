@@ -2,7 +2,7 @@ export ZSH=~/.oh-my-zsh
 
 ZSH_THEME="agnoster"
 DEFAULT_USER=$USER
-plugins=(git)
+plugins=(git zsh-wakatime)
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export PATH=$GOPATH/bin:$PATH
 export TERM=xterm-256color
